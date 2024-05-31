@@ -11,7 +11,7 @@
 }
 
 body {
-  color: hsl (var (--font-color));
+  color: hsl(var (--font-color));
 }
 
 img {
@@ -50,7 +50,7 @@ button {
   border: unset;
   background: hsl (231, 77%, 90%);
   padding: 1em 0.75em;
-  color: hsl (var (--font-color));
+  color: hsl(var(--font-color));
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
@@ -68,12 +68,13 @@ button {
 
   .qrcode__container {
     width: 100%;
-    text-align: center;
     padding: 50px;
   }
 
   .input__group {
-    margin-left: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   input {
