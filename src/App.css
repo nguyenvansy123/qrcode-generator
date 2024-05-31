@@ -56,6 +56,11 @@ button {
   font-weight: bold;
 }
 
+.qrcode__container {
+  display: flex;
+  justify-content: center;
+}
+
 
 @media screen and (min-width : 768px) {
   .section {
